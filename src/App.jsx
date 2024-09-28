@@ -32,18 +32,11 @@ const App = () => {
     <div className="w-1/2 bg-[#9999] b-2 border-red-400 text-white mt-5 m-auto p-4 rounded-md">
       <h1 className="w-1/2 mb-3 text-3xl m-auto">Password Generator</h1>
       <input
-        className="w-[90%] bg-orange-100 p-2 rounded-md outline-none text-black text-2xl font-medium inline-block mb-3"
+        className="w-[100%] bg-orange-100 p-2 rounded-md outline-none text-black text-2xl font-medium inline-block mb-3"
         type="text"
         readOnly={true}
         value={password}
       />
-      <button
-        className="w-[10%] inline-block
-        "
-      >
-        Copy
-      </button>
-
       <div className="w-full bg-lime-300 p-2 rounded-md  text-black text-xl font-medium flex gap-x-1 items-center ">
         <input
           type="range"
